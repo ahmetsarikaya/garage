@@ -1,0 +1,205 @@
+{
+	"info": {
+		"_postman_id": "100b18cf-5e95-4385-88f1-b675a460677e",
+		"name": "Garage",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "park Car",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/garage/park/car?color=Black&plate=34-SO-1988",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park",
+						"car"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "Black"
+						},
+						{
+							"key": "plate",
+							"value": "34-SO-1988"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "park Truck",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/garage/park/truck?color=Red&plate=34-BO-1987",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park",
+						"truck"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "Red"
+						},
+						{
+							"key": "plate",
+							"value": "34-BO-1987"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "park Jeep",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/garage/park/jeep?color=Blue&plate=34-VO-2018",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park",
+						"jeep"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "Blue"
+						},
+						{
+							"key": "plate",
+							"value": "34-VO-2018"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "park Truck - 2",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/garage/park/truck?color=Black&plate=34-HBO-2020",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park",
+						"truck"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "Black"
+						},
+						{
+							"key": "plate",
+							"value": "34-HBO-2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "leave",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/garage/leave/3",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"leave",
+						"3"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "park Car - 2 ",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/garage/park/car?color=White&plate=34-LO-2020",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"park",
+						"car"
+					],
+					"query": [
+						{
+							"key": "color",
+							"value": "White"
+						},
+						{
+							"key": "plate",
+							"value": "34-LO-2020"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "status",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/garage/status",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"garage",
+						"status"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
